@@ -1,11 +1,37 @@
-.mainNav{
-    background-color: rgb(20,20,20) !important;
+.mainNav {
+  background-color: rgb(20, 20, 20) !important;
 }
 
-.navbar-brand{
-    color: white
+.nav-link {
+  color: white;
 }
 
-.nav-link{
-    color: white !important
+.nav-link:hover {
+  color: white;
+  text-shadow: 0 0 4px white;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-brand:hover {
+  text-shadow: 0 0 4px white;
+}
+
+.active {
+  color: white !important;
+  text-shadow: 0 0 4px white;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-toggler {
+  filter: invert(1);
+}
+
+.nav-item {
+  text-align: center;
 }
